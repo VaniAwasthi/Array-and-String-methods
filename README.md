@@ -19,6 +19,14 @@ console.log(numbers.concat(characters, booleans));
     const num3 = [7, 8, 9];
     document.write(num1.concat(num2) + "<br>"); // single argument
     document.write(num1.concat(num2, num3) + "<br>"); // multiple argument
-    document.write(num1.concat(num2, 24, [10, 20, 30])); // passing values
 ```
  </details> 
+<details><summary>Result</summary>
+ 
+```js
+ [1,2,3,"a","b","c"]
+[1,2,3,"a","b","c",true,false]
+  
+```
+ </details> 
+ 
