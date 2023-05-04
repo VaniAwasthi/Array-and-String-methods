@@ -85,6 +85,8 @@ console.log(iterator1.next().value);
   
 ```
  </details> 
+
+
 ## 4. Every Method.
 ### Example
 ```js 
@@ -114,6 +116,8 @@ true
   
 ```
  </details> 
+
+
 ## 5. Fill Method.
 ### Example
 ```js 
