@@ -34,8 +34,7 @@ console.log(numbers.concat(characters, booleans));
 ### Example.
 
 ```js
-arr.copyWithIn(targetIndex);
-arr.copyWithIn(targetIndex, startIndex);
+console.log(arr1.copyWithin(2));
 ```
  
 <details><summary>Solution</summary>
@@ -61,3 +60,28 @@ console.log(arr2.copyWithin(2, 4));
 ```
  </details> 
  
+## 3. entries Method.
+### Example
+```js 
+console.log(iterator1.next());
+```
+<details><summary>Solution</summary>
+ 
+```js
+const arr = ["a", "b", "c", "d", "e"];
+const iterator1 = arr.entries();
+console.log(iterator1.next());
+console.log(iterator1.next().value);
+console.log(iterator1.next().value);
+
+```
+ </details> 
+<details><summary>Result</summary>
+ 
+```js
+[1,"b"]
+[2,"c"]
+0, a
+  
+```
+ </details> 
