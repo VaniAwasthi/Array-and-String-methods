@@ -139,3 +139,28 @@ console.log(arr.fill("b"));
 ["b","b","b","b","b","b","b"]  
 ```
  </details> 
+
+## 6. filter Method.
+### Example
+```js 
+console.log(arr.filter((element) => element > 10));
+```
+<details><summary>Solution</summary>
+ 
+```js
+const arr = [10, 12, 5, 15, 2, 32, 20, -5, 23];
+
+console.log(arr.filter((element) => element > 10));
+
+// array with only even numbers
+console.log(arr.filter((element) => element % 2 === 0));
+```
+ </details> 
+<details><summary>Result</summary>
+ 
+```js
+[12,15,32,20,23]
+[10,12,2,32,20]
+
+```
+ </details> 
