@@ -164,3 +164,23 @@ console.log(arr.filter((element) => element % 2 === 0));
 
 ```
  </details> 
+
+## 7. Find Method.
+### Example
+```js 
+console.log(arr.find((element) => element > 10));
+```
+<details><summary>Solution</summary>
+ 
+```js
+const arr = [1, 10, 2, 25, 5, 15];
+console.log(arr.find((element) => element > 10));
+```
+ </details> 
+<details><summary>Result</summary>
+ 
+```js
+25
+
+```
+ </details> 
