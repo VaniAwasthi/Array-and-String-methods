@@ -114,3 +114,24 @@ true
   
 ```
  </details> 
+## 5. Fill Method.
+### Example
+```js 
+console.log(arr.fill("b"));
+```
+<details><summary>Solution</summary>
+ 
+```js
+const arr = ["a", "a", "a", "a", "a", "a", "a"];
+
+// fill the whole array with "b"
+console.log(arr.fill("b"));
+
+```
+ </details> 
+<details><summary>Result</summary>
+ 
+```js
+["b","b","b","b","b","b","b"]  
+```
+ </details> 
