@@ -79,9 +79,9 @@ console.log(iterator1.next().value);
 <details><summary>Result</summary>
  
 ```js
+{"value":[0,"a"],"done":false}
 [1,"b"]
 [2,"c"]
-0, a
   
 ```
  </details> 
