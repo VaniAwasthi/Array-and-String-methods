@@ -29,4 +29,35 @@ console.log(numbers.concat(characters, booleans));
   
 ```
  </details> 
+
+## 2. copyWithIn Method.
+### Example.
+
+```js
+arr.copyWithIn(targetIndex);
+arr.copyWithIn(targetIndex, startIndex);
+```
+ 
+<details><summary>Solution</summary>
+ 
+```js
+ 
+const arr1 = ['a', 'b', 'c', 'd', 'e', 1, 2, 3];
+const arr2 = ['a', 'b', 'c', 'd', 'e', 1, 2, 3];
+const arr3 = ['a', 'b', 'c', 'd', 'e', 1, 2, 3];
+
+// copy elements from index 0 to last index to index 2
+console.log(arr1.copyWithin(2));
+// copy elements from index 4 to last index to index 2
+console.log(arr2.copyWithin(2, 4));
+```
+ </details> 
+<details><summary>Result</summary>
+ 
+```js
+["a","b","a","b","c","d","e",1]
+["a","b","e",1,2,3,2,3]
+  
+```
+ </details> 
  
