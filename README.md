@@ -85,3 +85,32 @@ console.log(iterator1.next().value);
   
 ```
  </details> 
+## 4. Every Method.
+### Example
+```js 
+console.log(arr1.every(isEven));
+console.log(arr2.every(isEven));
+```
+<details><summary>Solution</summary>
+ 
+```js
+const arr1 = [1, 2, 3, 4, 5];
+const arr2 = [22, 42, 86, 100, 4];
+
+function isEven(num) {
+  return num % 2 === 0;
+}
+
+console.log(arr1.every(isEven));
+console.log(arr2.every(isEven));
+
+```
+ </details> 
+<details><summary>Result</summary>
+ 
+```js
+false
+true
+  
+```
+ </details> 
