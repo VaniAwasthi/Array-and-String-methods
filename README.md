@@ -332,7 +332,6 @@ mango-banana-apple-orange-watermelon
  </details> 
 
 ## 14. lastIndexOf Method.
-
 ### Example.
 
 ```js
@@ -355,3 +354,30 @@ console.log(arr.lastIndexOf('d'));
 8
 ```
  </details> 
+
+## 14. Push Method.
+### Example.
+
+
+
+<details><summary>Solution</summary>
+ 
+```js
+const fruit = ["mango", "banana"];
+// push method add elements to the end of the array
+fruit.push("apple");
+console.log(fruit);
+//yu can  add 2 new elements to the end
+fruit.push("orange", "watermelon");
+console.log(fruit);
+ 
+```
+ </details> 
+<details><summary>Result</summary>
+ 
+```js
+["mango", "banana" , "apple"];
+["mango", "banana", "aple" , "orange" ,"watermelon"]
+```
+ </details> 
+
