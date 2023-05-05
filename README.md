@@ -278,3 +278,26 @@ true
 false
 ```
  </details> 
+
+## 11. indexOf Method.
+
+### Example.
+
+```js
+console.log(arr.indexOf("c"));
+```
+
+<details><summary>Solution</summary>
+ 
+```js
+const arr = ["a", "b", "c", "d", "e"];
+
+console.log(arr.indexOf("c"));
+```
+ </details> 
+<details><summary>Result</summary>
+ 
+```js
+ 2
+```
+ </details> 
