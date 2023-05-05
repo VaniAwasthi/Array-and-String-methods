@@ -205,3 +205,33 @@ console.log(arr.findIndex((element) => element > 10));
 
 ```
  </details> 
+
+## 9.ForEach Concat Method.
+### Example.
+
+```js
+arr.forEach(square);
+
+
+```
+ 
+<details><summary>Solution</summary>
+ 
+```js
+ const arr = [1, 2, 3, 4, 5];
+var sum = 0;
+function square(element) {
+  sum += element * element;
+}
+arr.forEach(square);
+console.log("sum = " + sum);
+```
+ </details> 
+<details><summary>Result</summary>
+ 
+```js
+sum = 55
+
+  
+```
+ </details> 
