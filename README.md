@@ -254,3 +254,27 @@ console.log(arr);
 ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
 ```
  </details> 
+
+## 10. includes Method.
+
+### Example.
+
+```js
+console.log(fruit.includes("apple"))
+```
+
+<details><summary>Solution</summary>
+ 
+```js
+const alphabets = ["a", "b", "c", "d", "e"];
+console.log(alphabets.includes("a"));
+console.log(alphabets.includes("a", 1));
+```
+ </details> 
+<details><summary>Result</summary>
+ 
+```js
+true
+false
+```
+ </details> 
