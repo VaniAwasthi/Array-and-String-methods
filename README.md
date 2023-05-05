@@ -231,7 +231,9 @@ console.log("sum = " + sum);
 sum = 55 
 ```
  </details> 
+
 ## 10. Array.form Method.
+
 ### Example.
 
 ```js
