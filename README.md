@@ -330,3 +330,28 @@ mangobananaappleorangewatermelon
 mango-banana-apple-orange-watermelon
 ```
  </details> 
+
+## 14. lastIndexOf Method.
+
+### Example.
+
+```js
+console.log(arr.lastIndexOf('d'));
+
+```
+
+<details><summary>Solution</summary>
+ 
+```js
+const arr = ["b", "d", "i", "b", "d", "f", "i", "b", "d", "g", "i"];
+// get the index of 'd'
+console.log(arr.lastIndexOf('d'));
+ 
+```
+ </details> 
+<details><summary>Result</summary>
+ 
+```js
+8
+```
+ </details> 
