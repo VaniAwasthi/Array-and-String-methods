@@ -355,29 +355,26 @@ console.log(arr.lastIndexOf('d'));
 ```
  </details> 
 
-## 14. Push Method.
+## 15. Pop Method.
 ### Example.
-
-
 
 <details><summary>Solution</summary>
  
 ```js
-const fruit = ["mango", "banana"];
-// push method add elements to the end of the array
-fruit.push("apple");
-console.log(fruit);
-//yu can  add 2 new elements to the end
-fruit.push("orange", "watermelon");
-console.log(fruit);
+const fruit = ["mango", "banana", "apple", "orange", "watermelon"];
+ //it will remove one element from end of array
+fruit.pop();
+console.log(fruits);
+fruit.pop();
+console.log(fruits);
  
 ```
  </details> 
 <details><summary>Result</summary>
  
 ```js
-["mango", "banana" , "apple"];
-["mango", "banana", "aple" , "orange" ,"watermelon"]
+["mango", "banana", "apple", "orange"];
+["mango", "banana", "apple"]
 ```
  </details> 
 
