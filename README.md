@@ -301,3 +301,32 @@ console.log(arr.indexOf("c"));
  2
 ```
  </details> 
+
+## 12. Join Method.
+### Example.
+
+```js
+console.log(fruit.join());
+```
+
+<details><summary>Solution</summary>
+ 
+```js
+const fruit = ["mango", "banana", "apple", "orange", "watermelon"];
+
+// default separator (,)
+console.log(fruit.join());
+// blank separator
+console.log(fruit.join(''));
+// custom separator
+console.log(fruit.join('-'));
+```
+ </details> 
+<details><summary>Result</summary>
+ 
+```js
+ mango,banana,apple,orange,watermelon
+mangobananaappleorangewatermelon
+mango-banana-apple-orange-watermelon
+```
+ </details> 
