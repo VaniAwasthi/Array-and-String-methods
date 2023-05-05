@@ -255,7 +255,7 @@ console.log(arr);
 ```
  </details> 
 
-## 10. includes Method.
+## 11. includes Method.
 
 ### Example.
 
@@ -279,7 +279,7 @@ false
 ```
  </details> 
 
-## 11. indexOf Method.
+## 12. indexOf Method.
 
 ### Example.
 
@@ -302,7 +302,7 @@ console.log(arr.indexOf("c"));
 ```
  </details> 
 
-## 12. Join Method.
+## 13. Join Method.
 ### Example.
 
 ```js
