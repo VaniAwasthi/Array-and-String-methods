@@ -378,3 +378,27 @@ console.log(fruits);
 ```
  </details> 
 
+## 16. Push Method.
+### Example.
+
+<details><summary>Solution</summary>
+ 
+```js
+const fruit = ["mango", "banana"];
+
+// this method add elements to the end of the array
+fruit.push("apple");
+console.log(fruit);
+// you can add 2 new elements to the end
+fruit.push("orange", "watermelon");
+console.log(fruit); 
+```
+ </details> 
+<details><summary>Result</summary>
+ 
+```js
+["mango", "banana", "apple"];
+ ["mango", "banana", "apple", "orange" , "watermelon"]
+```
+ </details> 
+
