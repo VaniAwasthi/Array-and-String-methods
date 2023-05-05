@@ -206,7 +206,7 @@ console.log(arr.findIndex((element) => element > 10));
 ```
  </details> 
 
-## 9.ForEach Concat Method.
+## 9.ForEach Method.
 ### Example.
 
 ```js
