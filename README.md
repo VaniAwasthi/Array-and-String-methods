@@ -211,10 +211,8 @@ console.log(arr.findIndex((element) => element > 10));
 
 ```js
 arr.forEach(square);
-
-
 ```
- 
+
 <details><summary>Solution</summary>
  
 ```js
@@ -230,8 +228,27 @@ console.log("sum = " + sum);
 <details><summary>Result</summary>
  
 ```js
-sum = 55
+sum = 55 
+```
+ </details> 
+## 10. Array.form Method.
+### Example.
 
-  
+```js
+Array.from(arrayLike)
+```
+
+<details><summary>Solution</summary>
+ 
+```js
+ const alphabets = "abcdefghijklmnopqrstuvwxyz";
+const arr = Array.from(alphabets);
+console.log(arr);
+```
+ </details> 
+<details><summary>Result</summary>
+ 
+```js
+["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
 ```
  </details> 
