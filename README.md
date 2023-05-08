@@ -462,4 +462,45 @@ console.log(num.reverse());
 [5,4,3,2,1]
 
 ```
+</details> 
+
+## 20. Reverse  Method.
+### Example.
+
+<details><summary>Solution</summary>
+ 
+```js
+const num = [1, 2, 3, 4, 5];
+console.log(num.reverse());
+```
  </details> 
+<details><summary>Result</summary>
+ 
+```js
+[5,4,3,2,1]
+
+```
+</details> 
+
+## 21. Map  Method.
+### Example.
+
+<details><summary>Solution</summary>
+ 
+```js
+const num = [1, 2, 3, 4, 5];
+const result= num.map((num) => (
+num*2
+ ));
+ console.log(result)
+```
+ </details> 
+<details><summary>Result</summary>
+ 
+```js
+[2,4,6,8.10]
+
+```
+</details> 
+
+
