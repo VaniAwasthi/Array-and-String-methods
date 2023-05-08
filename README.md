@@ -522,3 +522,42 @@ True
 ```
 </details> 
 
+## 23. sort  Method.
+### Example.
+
+<details><summary>Solution</summary>
+ 
+```js
+const fruit = ["mango", "banana", "apple", "orange", "watermelon"];
+console.log(fruit.sort());
+ ```
+ </details> 
+ <details><summary>Result</summary>
+ 
+```js
+
+["apple","banana","mango","orange","watermelon"]
+[2,43,100,321,1310]
+
+```
+</details> 
+
+### Example .
+<details><summary>Solution</summary>
+ 
+ ```js
+const num = [2, 321, 100, 1310, 43];
+console.log(num.sort((firstElement, secondElement)=>{
+  return firstElement - secondElement;
+}));
+
+```
+
+<details><summary>Result</summary>
+ 
+```js
+[2,43,100,321,1310]
+
+```
+</details> 
+
