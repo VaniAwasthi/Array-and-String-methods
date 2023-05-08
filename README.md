@@ -402,3 +402,26 @@ console.log(fruit);
 ```
  </details> 
 
+## 17. UnShift Method.
+### Example.
+
+<details><summary>Solution</summary>
+ 
+```js
+const fruit = ["orange", "watermelon"];
+
+// adding one  elements to the beginning of the array
+fruit.unshift("apple");
+console.log( fruit);
+// adding 2 new elements to the beginning
+fruit.shift("mango", "banana");
+console.log( fruit);
+```
+ </details> 
+<details><summary>Result</summary>
+ 
+```js
+["apple", "orange" , "watermelon"];
+ ["mango", "banana", "apple", "orange" , "watermelon"]
+```
+ </details> 
