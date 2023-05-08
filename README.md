@@ -442,7 +442,6 @@ console.log(sum);
 <details><summary>Result</summary>
  
 ```js
-["apple", "orange" , "watermelon"];
- ["mango", "banana", "apple", "orange" , "watermelon"]
+15
 ```
  </details> 
