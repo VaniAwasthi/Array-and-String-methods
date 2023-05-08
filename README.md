@@ -503,4 +503,22 @@ num*2
 ```
 </details> 
 
+## 22. some  Method.
+### Example.
+
+<details><summary>Solution</summary>
+ 
+```js
+const num = [1, 2, 3, 4, 5];
+const result= num.some((num) => num>2)
+ console.log(result)
+```
+ </details> 
+<details><summary>Result</summary>
+ 
+```js
+True
+
+```
+</details> 
 
