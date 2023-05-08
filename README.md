@@ -425,3 +425,24 @@ console.log( fruit);
  ["mango", "banana", "apple", "orange" , "watermelon"]
 ```
  </details> 
+
+## 18. reduce Method.
+### Example.
+
+<details><summary>Solution</summary>
+ 
+```js
+const num = [1, 2, 3, 4, 5];
+
+// sum of all elements
+const sum = num.reduce((acc, curr) => acc + curr);
+console.log(sum);
+```
+ </details> 
+<details><summary>Result</summary>
+ 
+```js
+["apple", "orange" , "watermelon"];
+ ["mango", "banana", "apple", "orange" , "watermelon"]
+```
+ </details> 
