@@ -445,3 +445,21 @@ console.log(sum);
 15
 ```
  </details> 
+
+## 19. Reverse  Method.
+### Example.
+
+<details><summary>Solution</summary>
+ 
+```js
+const num = [1, 2, 3, 4, 5];
+console.log(num.reverse());
+```
+ </details> 
+<details><summary>Result</summary>
+ 
+```js
+[5,4,3,2,1]
+
+```
+ </details> 
