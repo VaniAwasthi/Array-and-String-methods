@@ -464,25 +464,9 @@ console.log(num.reverse());
 ```
 </details> 
 
-## 20. Reverse  Method.
-### Example.
 
-<details><summary>Solution</summary>
- 
-```js
-const num = [1, 2, 3, 4, 5];
-console.log(num.reverse());
-```
- </details> 
-<details><summary>Result</summary>
- 
-```js
-[5,4,3,2,1]
 
-```
-</details> 
-
-## 21. Map  Method.
+## 20. Map  Method.
 ### Example.
 
 <details><summary>Solution</summary>
@@ -503,7 +487,7 @@ num*2
 ```
 </details> 
 
-## 22. some  Method.
+## 21. some  Method.
 ### Example.
 
 <details><summary>Solution</summary>
@@ -522,7 +506,7 @@ True
 ```
 </details> 
 
-## 23. sort  Method.
+## 22. sort  Method.
 ### Example.
 
 <details><summary>Solution</summary>
