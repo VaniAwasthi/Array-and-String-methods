@@ -525,6 +525,8 @@ console.log(fruit.sort());
 
 ```
 </details> 
+
+
 ## 23 . Shift Method
 ### Example .
 <details><summary>Solution</summary>
