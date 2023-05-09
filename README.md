@@ -549,7 +549,7 @@ apple,orange,watermelon
 ```
 </details> 
 
-# String_methods : computer
+# String_methods :computer:
 
 ## 1. Replace Method 
 ### Example :
@@ -572,9 +572,9 @@ console.log(str.replace(/day/g, "year"));
 Carbon emission is increasing year by year.
 
 ```
-</details> 
+</details>
 
-## 1.  Repeat  Method 
+## 2.  Repeat  Method 
 ### Example :
 <details><summary>Solution</summary>
  
@@ -597,5 +597,83 @@ console.log(str.repeat(0));
 Tick tock, Tick tock, Tick tock, 
 ''
 
+```
+</details> 
+
+## 3.  ReplaceAll  Method 
+### Example :
+<details><summary>Solution</summary>
+ 
+ ```js
+ const str = "Carbon emission is increasing day by day.";
+
+// select all match using both string or regular expression
+console.log(str.replaceAll("day", "year"));
+console.log(str.replaceAll(/day/g, "month"));
+```
+ </details>
+
+<details><summary>Result</summary>
+ 
+```js
+Carbon emission is increasing year by year.
+Carbon emission is increasing month by month.
+
+```
+</details> 
+
+## 4.  Search  Method 
+### Example :
+<details><summary>Solution</summary>
+ 
+ ```js
+const str = "kjhBfdbAjdbj";
+console.log(str.search(/[A-Z]/g));
+```
+ </details>
+
+<details><summary>Result</summary>
+ 
+```js
+3
+```
+</details> 
+
+## 5.  match  Method 
+### Example :
+<details><summary>Solution</summary>
+ 
+ ```js
+const series = "bdWg2AdjgH4du5jUgT";
+// match all capital letters and numbers
+console.log(series.match(/[A-Z0-9]/g));
+
+```
+ </details>
+
+<details><summary>Result</summary>
+```js
+["W","2","A","H","4","5","U","T"]
+```
+</details> 
+
+## 6.  matchAll  Method 
+### Example :
+<details><summary>Solution</summary>
+ 
+ ```js
+ const series = "to do or not to do";
+// matching "do" and capturing group
+const array = [...series.matchAll(/d(o)/g)];
+console.log(array);
+console.log(array[0])
+```
+ </details>
+
+<details><summary>Result</summary>
+ 
+```js
+[["do","o"],["do","o"]]
+["do","o"]
 ```
 </details> 
