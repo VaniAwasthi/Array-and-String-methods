@@ -544,4 +544,28 @@ console.log(num.sort((firstElement, secondElement)=>{
 
 ```
 </details> 
+ 
 
+## 24. Shift Method.
+### Example.
+
+<details><summary>Solution</summary>
+ 
+```js
+const fruit = ["orange", "watermelon"];
+
+// adding one  elements to the beginning of the array
+fruit.unshift("apple");
+console.log( fruit);
+// removing 2 new elements to the beginning
+fruit.shift("mango", "banana");
+console.log( fruit);
+```
+ </details> 
+<details><summary>Result</summary>
+ 
+```js
+["apple", "orange" , "watermelon"];
+ ["mango", "banana", "apple", "orange" , "watermelon"]
+```
+ </details> 
