@@ -545,10 +545,8 @@ console.log(num.sort((firstElement, secondElement)=>{
 ```
 </details> 
  
-
 ## 23. Shift Method.
-### Example.
-
+### Example
 <details><summary>Solution</summary>
  
 ```js
