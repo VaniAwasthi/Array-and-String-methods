@@ -538,6 +538,7 @@ console.log(fruit);
 fruit.shift();
 console.log( fruit);
 ```
+ </details>
 
 <details><summary>Result</summary>
  
@@ -547,4 +548,54 @@ apple,orange,watermelon
 
 ```
 </details> 
+
+# String_methods : computer
+
+## 1. Replace Method 
+### Example :
+<details><summary>Solution</summary>
  
+ ```js
+const str = "Carbon emission is increasing day by day.";
+
+// here we are using string to match
+console.log(str.replace("day", "year"));
+// here we are using regular expression to match
+console.log(str.replace(/day/g, "year"));
+```
+ </details>
+
+<details><summary>Result</summary>
+ 
+```js
+ Carbon emission is increasing year by day.
+Carbon emission is increasing year by year.
+
+```
+</details> 
+
+## 1.  Repeat  Method 
+### Example :
+<details><summary>Solution</summary>
+ 
+ ```js
+const str = "Tick tock, ";
+
+// repeat the string by 2 times
+console.log(str.repeat(2));
+// converts the decimal value to integer
+console.log(str.repeat(3.5));
+// syntax to repeat 0 times
+console.log(str.repeat(0));
+```
+ </details>
+
+<details><summary>Result</summary>
+ 
+```js
+ Tick tock, Tick tock, 
+Tick tock, Tick tock, Tick tock, 
+''
+
+```
+</details> 
