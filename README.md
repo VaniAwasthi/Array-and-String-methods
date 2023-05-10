@@ -711,3 +711,20 @@ console.log(str.trim());
 TutorialsTonigh
 ```
 </details> 
+
+## 9. toUpperCase Method 
+### Example :
+<details><summary>Solution</summary>
+ 
+ ```js
+const message = " hello! have a good day";
+console.log(message.toUpperCase());
+```
+ </details>
+
+<details><summary>Result</summary>
+ 
+```js
+ HELLO ! HAVE A GOOD DAY
+```
+</details> 
