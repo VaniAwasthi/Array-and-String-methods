@@ -677,3 +677,20 @@ console.log(array[0])
 ["do","o"]
 ```
 </details> 
+
+## 7.  valuOf  Method 
+### Example :
+<details><summary>Solution</summary>
+ 
+ ```js
+const str = new String("hello world");
+console.log(str.valueOf(str));
+```
+ </details>
+
+<details><summary>Result</summary>
+ 
+```js
+hello world
+```
+</details> 
