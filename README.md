@@ -717,7 +717,7 @@ TutorialsTonigh
 <details><summary>Solution</summary>
  
  ```js
-const message = " hello! have a good day";
+const message = "hello! have a good day";
 console.log(message.toUpperCase());
 ```
  </details>
@@ -725,6 +725,23 @@ console.log(message.toUpperCase());
 <details><summary>Result</summary>
  
 ```js
- HELLO ! HAVE A GOOD DAY
+ HELLO! HAVE A GOOD DAY
+```
+</details> 
+
+## 9. toLowerCase Method 
+### Example :
+<details><summary>Solution</summary>
+ 
+ ```js
+const message = "HELLO! HAVE A GOOD DAY";
+console.log(message.toUpperCase());
+```
+ </details>
+
+<details><summary>Result</summary>
+ 
+```js
+ hello! have a good day
 ```
 </details> 
