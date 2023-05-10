@@ -835,3 +835,24 @@ console.log(sentence.split(''));
 ["C","a","r","b","o","n"," ","e","m","i","s","s","i","o","n"," ","i","s"," ","i","n","c","r","e","a","s","i","n","g"," ","d","a","y"," ","b","y"," ","d","a","y"]
 ```
 </details> 
+
+## 14. slice  Method 
+### Example :
+<details><summary>Solution</summary>
+ 
+ ```js
+const sentence = "Carbon emission is increasing day by day";
+console.log(sentence.slice(5, 15));
+console.log(sentence.slice(5));
+console.log(sentence.slice(-15, -5));
+```
+ </details>
+
+<details><summary>Result</summary>
+ 
+```js
+ n emission
+n emission is increasing day by day
+sing day b
+```
+</details> 
