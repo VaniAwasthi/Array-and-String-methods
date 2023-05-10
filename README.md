@@ -729,13 +729,13 @@ console.log(message.toUpperCase());
 ```
 </details> 
 
-## 9. toLowerCase Method 
+## 10. toLowerCase Method 
 ### Example :
 <details><summary>Solution</summary>
  
  ```js
 const message = "HELLO! HAVE A GOOD DAY";
-console.log(message.toUpperCase());
+console.log(message.toLowerCase());
 ```
  </details>
 
