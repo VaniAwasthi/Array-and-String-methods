@@ -814,3 +814,24 @@ false
 true
 ```
 </details> 
+
+## 14. Split  Method 
+### Example :
+<details><summary>Solution</summary>
+ 
+ ```js
+const sentence = "Carbon emission is increasing day by day";
+// no pattern -> return whole string in array
+console.log(sentence.split());
+// split at each space
+console.log(sentence.split(''));
+```
+ </details>
+
+<details><summary>Result</summary>
+ 
+```js
+["Carbon emission is increasing day by day"]
+["C","a","r","b","o","n"," ","e","m","i","s","s","i","o","n"," ","i","s"," ","i","n","c","r","e","a","s","i","n","g"," ","d","a","y"," ","b","y"," ","d","a","y"]
+```
+</details> 
