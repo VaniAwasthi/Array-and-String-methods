@@ -793,3 +793,24 @@ pulation is icreasing day by day
 da
 ```
 </details> 
+
+## 13. startsWith  Method 
+### Example :
+<details><summary>Solution</summary>
+ 
+ ```js
+const sentence = "Carbon emission is increasing day by day";
+console.log(sentence.startsWith("Car"));
+console.log(sentence.startsWith("carbon")); // return false case-sensitive
+console.log(sentence.startsWith("bon", 3));
+```
+ </details>
+
+<details><summary>Result</summary>
+ 
+```js
+true
+false
+true
+```
+</details> 
