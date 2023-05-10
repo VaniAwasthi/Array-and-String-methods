@@ -694,3 +694,20 @@ console.log(str.valueOf(str));
 hello world
 ```
 </details> 
+
+## 8. Trim Method 
+### Example :
+<details><summary>Solution</summary>
+ 
+ ```js
+const str = "    TutorialsTonight    ";
+console.log(str.trim());
+```
+ </details>
+
+<details><summary>Result</summary>
+ 
+```js
+TutorialsTonigh
+```
+</details> 
