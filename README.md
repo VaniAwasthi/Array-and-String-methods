@@ -769,3 +769,27 @@ console.log(sentence.substring(20, 10));
  pulation i
 ```
 </details> 
+
+## 12. substr Method 
+### Example :
+<details><summary>Solution</summary>
+ 
+ ```js
+const sentence = "India's population is icreasing day by day";
+console.log(sentence.substr(10, 6));
+// start at index 10, cut all characters
+console.log(sentence.substr(10));
+
+// negative index
+console.log(sentence.substr(-4, 3));
+```
+ </details>
+
+<details><summary>Result</summary>
+ 
+```js
+ pulati
+pulation is icreasing day by day
+da
+```
+</details> 
