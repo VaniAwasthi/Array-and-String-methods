@@ -836,7 +836,7 @@ console.log(sentence.split(''));
 ```
 </details> 
 
-## 14. slice  Method 
+## 15. slice  Method 
 ### Example :
 <details><summary>Solution</summary>
  
