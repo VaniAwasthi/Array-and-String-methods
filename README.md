@@ -745,3 +745,27 @@ console.log(message.toLowerCase());
  hello! have a good day
 ```
 </details> 
+
+## 11. substring Method 
+### Example :
+<details><summary>Solution</summary>
+ 
+ ```js
+const sentence = "India's population is icreasing day by day";
+console.log(sentence.substring(10));
+// start at index 10, and end at index 20
+console.log(sentence.substring(10, 20));
+
+// startIndex > endIndex
+console.log(sentence.substring(20, 10));
+```
+ </details>
+
+<details><summary>Result</summary>
+ 
+```js
+ pulation is icreasing day by day
+ pulation i
+ pulation i
+```
+</details> 
